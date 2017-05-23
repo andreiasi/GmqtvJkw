@@ -16,6 +16,7 @@ $zerif_bigtitle_show = get_theme_mod('zerif_bigtitle_show');
 <?php
 
 	/* OUR FOCUS SECTION */
+	get_template_part( 'content', 'slider' );
 
 	$zerif_ourfocus_show = get_theme_mod('zerif_ourfocus_show');
 
@@ -77,7 +78,7 @@ $zerif_bigtitle_show = get_theme_mod('zerif_bigtitle_show');
 
 	/* RIBBON WITH RIGHT SIDE BUTTON */
 
-	get_template_part( 'sections/ribbon_with_right_button' );
+	//get_template_part( 'sections/ribbon_with_right_button' );
 
 	/* LATEST NEWS */
 	$zerif_latestnews_show = get_theme_mod('zerif_latestnews_show');
