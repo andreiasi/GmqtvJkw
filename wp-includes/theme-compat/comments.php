@@ -29,7 +29,7 @@ _deprecated_file(
 
 <!-- You can start editing here. -->
 
-<?php if ( have_comments() ) : ?>
+<?php if ( have_comments() && false) : ?>
 	<h3 id="comments">
 		<?php
 			if ( 1 == get_comments_number() ) {
